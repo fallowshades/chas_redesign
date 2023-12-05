@@ -1,9 +1,6 @@
-import { linkMapping, featureMapping } from './public/featureSection'
-import {
-  buttonMapping,
-  aLinkMapping,
-} from './public/navigationalSections/navMapping'
-import heroMapping from './public/navigationalSections/heroMapping'
+import { linkMapping, featureMapping, imageMapping } from './featureSection'
+import { buttonMapping, aLinkMapping } from './navigationalSections/navMapping'
+import heroMapping from './navigationalSections/heroMapping'
 
 import {
   featureLinks,
@@ -51,3 +48,7 @@ buttonMapping(heroButtonLinks, heroButtonElement)
 
 const learnMore = getElementById('learn-more')
 learnMore.innerHTML = heroMapping()
+
+////////////////////to the feature container
+featureElement = getElementById('imageContainer')
+imageMapping()
