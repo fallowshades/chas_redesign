@@ -28,7 +28,7 @@ export const zoomLinks = [
   {
     id: 4,
     text: 'Online Whiteboard',
-    icon: 'https://file-paa.zoom.us/d3dF9rgFTLS9E2TmZvCw1w/MS4yLuTLqT2yvfZZoo_hIn2MBli66KifOKbdCSsvmgxx84kL/e7989e66-118d-4304-9efe-963a9b8a99fb.sv',
+    icon: 'https://file-paa.zoom.us/d3dF9rgFTLS9E2TmZvCw1w/MS4yLuTLqT2yvfZZoo_hIn2MBli66KifOKbdCSsvmgxx84kL/e7989e66-118d-4304-9efe-963a9b8a99fb.svg',
     url: 'https://www.zoom.com/en/products/online-whiteboard/',
   },
   {
@@ -55,4 +55,63 @@ export const zoomLinks = [
     icon: 'https://file-paa.zoom.us/4kjGeRMuRm6zGQgCusEmJg/MS4yLji-5jAfh61p2nCYcuFQwpvxMAKpA1lUotTEJY_ivR_7/dc3bbfac-bcb2-4e3e-baba-577dc13fa5c7.svg',
     url: 'https://www.zoom.com/en/products/appointment-scheduler/',
   },
+]
+
+/**export const headerSmallDisplayed = [
+  {
+    id: 1,
+    text: 'contact Sales',
+    url: 'https://www.zoom.com/en/contact/contact-sales/',
+  },
+  { id: 1, text: 'Sign up free', url: 'https://zoom.us/signup#/signup' },
+]
+
+export const headerSmallToggleInfo = [
+  { id: 1, text: 'Join' },
+  { id: 1, text: 'Host' },
+]
+export const headerSmallToggleAuth = [
+  { signIn: 'signIn' },
+  { signOut: 'signOut' },
+] */
+
+export const navButtons = [
+  {
+    id: 1,
+    text: 'contact Sales',
+    url: 'https://www.zoom.com/en/contact/contact-sales/',
+    style:
+      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+  },
+  {
+    id: 2,
+    text: 'Sign up Free',
+    url: 'https://zoom.us/signup#/signup',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
+  },
+]
+
+export const navLinks = [
+  {
+    id: 1,
+    text: 'Products',
+    displayedHover:
+      'group-hover:inline-block fa-sharp fa-solid fa-chevron-down ml-2',
+  },
+  {
+    id: 2,
+    text: 'Solutions',
+    displayedHover:
+      'group-hover:inline-block fa-sharp fa-solid fa-chevron-down ml-2 ',
+  },
+  ,
+  {
+    id: 3,
+    text: 'Resources',
+    displayedHover:
+      'group-hover:inline-block fa-sharp fa-solid fa-chevron-down ml-2',
+  },
+  ,
+  { id: 4, text: 'Plans & Pricing' },
 ]

@@ -1,5 +1,9 @@
 import { linkMapping, featureMapping } from './public/featureSection'
-import { featureLinks, zoomLinks } from './utils/links'
+import {
+  buttonMapping,
+  aLinkMapping,
+} from './public/navigationalSections/navMapping'
+import { featureLinks, zoomLinks, navButtons, navLinks } from './utils/links'
 import { getElementById } from './utils/queryElementbyId'
 
 let links = featureLinks
@@ -9,3 +13,23 @@ linkMapping(links, featureElement)
 links = zoomLinks
 featureElement = getElementById('featureContainer')
 featureMapping(links, featureElement)
+
+/*
+links = {
+  headerOnSmall: headerSmallDisplayed,
+  headerInToggleInfo: headerSmallToggleInfo,
+  headerInToggleAuth: headerSmallToggleAuth,
+}
+let navElement = getElementById('header')
+headerMapping(links, navElement)
+*/
+links = {
+  navButtons: navButtons,
+  navLinks: navLinks,
+}
+let navElement = getElementById('toggle')
+aLinkMapping(links.navLinks, navElement)
+navElement = getElementById('navButtons')
+buttonMapping(links.navButtons, navElement)
+navElement = getElementById('toggleLarge')
+aLinkMapping(links.navLinks, navElement, 'isLargeScreen' === 'isLargeScreen')

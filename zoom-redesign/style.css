@@ -8,11 +8,38 @@
   align-items: center; /* Adjust as needed */
   /* Add any other necessary styles */
 }
+@media (min-width: 576px) {
+  .sm\:after,
+  .sm\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@media (min-width: 768px) {
+  .md\:after,
+  .md\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg\:after,
+  .lg\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:after,
+  .xl\:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }

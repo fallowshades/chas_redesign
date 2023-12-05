@@ -5,9 +5,41 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Vite App</title>
   </head>
-  <body>
+  <body class="bg-midnight text-tahiti">
+    <nav
+      id="nav"
+      class="flex justify-between flex-row items-center p-4 bg-midnight text-tahiti"
+    >
+      <div class="flex items-start items-center md:items-start">
+        <img
+          alt="Zoom Logo"
+          height="26"
+          src="https://images4.welcomesoftware.com/assets/Zoom+Logo/Zz01ZGU4MDMzZWJmNDcxMWVkOTI4NGEyNDU1OWRiZTc5Zg==?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOlsiNWRlODAzM2ViZjQ3MTFlZDkyODRhMjQ1NTlkYmU3OWYiXSwiZXhwIjoxNjgxMzM0MTEwfQ.3_IFoXtmS8ExOGbL0F1oGPu8z6lgijgDWFf82zrDFzk"
+          width="114"
+        />
+        <div id="toggle" class="hidden md:block">
+          is dynamically rendered in navMapping
+        </div>
+      </div>
+
+      <div>
+        <div id="navButtons" class="hidden md:block">
+          is dynamically rendered in navMapping
+        </div>
+        <div id="toggleLarge" class="md:hidden">
+          is dynamically rendered in navMapping
+        </div>
+      </div>
+    </nav>
+
+    <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
     <div class="align-element py-20">
       <section class="features">
         <div class="align-element py-20">
@@ -25,41 +57,9 @@
           </div>
         </div>
       </section>
+      <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-      <section class="blog">
-        <img
-          src="https://file-paa.zoom.us/TWAE5vIoSyqnbwQ9r_H3zg/MS4yLoT3qtycfaKkPD_rMUSRdEwmZpFWI4d5R-gmGf12svDk/cc8733ef-6b23-4d15-acbb-dbc6217901d1.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/W0L51lMrQtWShqOeU10A2w/MS4yLkbW6YpwLWY7OEieFZe6irJUk7UZocX___gXO2FjPQiS/48f8ddec-ee22-4b98-9671-6256a830e110.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/AY4XcMOGQmKCHp_Ihbx5UA/MS4yLvR4wOTWK4saf6-gSr3uAlUEkUkiMguA8axuYcPQMGph/74d37332-ab28-48d9-aa8b-8018819736a9.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/d3dF9rgFTLS9E2TmZvCw1w/MS4yLuTLqT2yvfZZoo_hIn2MBli66KifOKbdCSsvmgxx84kL/e7989e66-118d-4304-9efe-963a9b8a99fb.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/YfjgdtTQSeWQZcj3Z8IkIQ/MS4yLlC_Kon4CpxR8jocxHAxj59zO-9MYgS0I-KCUl44M2s9/7d7e8546-5096-45c3-85d8-1bae62cb161f.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/UZ0QN8-oQeutU3JTeEBhbg/MS4yLqB0XMdz6LyfwVXim2EivrpAur-85Kj9QWjARaVXMxDQ/daf9033e-71b6-4e31-bbd2-0568f6a0dad4.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/9xN0-ByKRoGGM9sw2hWE9Q/MS4yLqXRbO-x95zSmr9JbTZ7DfxKHbEH9SCUK_g_hU9kDhv8/24bdcaf6-934b-40a4-a8ee-2cf34ece062c.svg"
-          class="svgUrl"
-        />
-        <img
-          src="https://file-paa.zoom.us/4kjGeRMuRm6zGQgCusEmJg/MS4yLji-5jAfh61p2nCYcuFQwpvxMAKpA1lUotTEJY_ivR_7/dc3bbfac-bcb2-4e3e-baba-577dc13fa5c7.svg"
-          class="svgUrl"
-        />
-      </section>
+      <section class="blog"></section>
     </div>
 
     <script type="module" src="/main.js"></script>
