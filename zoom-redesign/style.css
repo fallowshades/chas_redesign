@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollable-input {
+  width: 300px; /* Set your desired width */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
 .align-element {
   display: flex;
   justify-content: center; /* Adjust as needed */

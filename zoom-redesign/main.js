@@ -3,6 +3,8 @@ import {
   buttonMapping,
   aLinkMapping,
 } from './public/navigationalSections/navMapping'
+import heroMapping from './public/navigationalSections/heroMapping'
+
 import {
   featureLinks,
   zoomLinks,
@@ -46,3 +48,6 @@ const heroButtonElement = getElementById('reverse-button-order')
 const heroButtonLinks = buttonsBlueThenWhite
 
 buttonMapping(heroButtonLinks, heroButtonElement)
+
+const learnMore = getElementById('learn-more')
+learnMore.innerHTML = heroMapping()
