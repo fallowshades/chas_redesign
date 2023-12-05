@@ -330,3 +330,7 @@ buttonMapping(links.navButtons, navElement)
 navElement = getElementById('toggleLarge')
 aLinkMapping(links.navLinks, navElement, 'isLargeScreen' === 'isLargeScreen')
 ```
+
+## about time to hero
+
+###

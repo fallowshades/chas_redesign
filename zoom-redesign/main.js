@@ -3,7 +3,13 @@ import {
   buttonMapping,
   aLinkMapping,
 } from './public/navigationalSections/navMapping'
-import { featureLinks, zoomLinks, navButtons, navLinks } from './utils/links'
+import {
+  featureLinks,
+  zoomLinks,
+  navButtons,
+  navLinks,
+  buttonsBlueThenWhite,
+} from './utils/links'
 import { getElementById } from './utils/queryElementbyId'
 
 let links = featureLinks
@@ -33,3 +39,10 @@ navElement = getElementById('navButtons')
 buttonMapping(links.navButtons, navElement)
 navElement = getElementById('toggleLarge')
 aLinkMapping(links.navLinks, navElement, 'isLargeScreen' === 'isLargeScreen')
+
+///////////////hero section
+
+const heroButtonElement = getElementById('reverse-button-order')
+const heroButtonLinks = buttonsBlueThenWhite
+
+buttonMapping(heroButtonLinks, heroButtonElement)

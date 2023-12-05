@@ -115,3 +115,20 @@ export const navLinks = [
   ,
   { id: 4, text: 'Plans & Pricing' },
 ]
+
+export const buttonsBlueThenWhite = [
+  {
+    id: 1,
+    text: 'Plans & pricing',
+    url: 'https://zoom.us/pricing',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
+  },
+  {
+    id: 2,
+    text: 'Discover AI companion',
+    url: 'https://www.zoom.com/en/ai-assistant/',
+    style:
+      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+  },
+]
