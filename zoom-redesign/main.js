@@ -2,6 +2,7 @@ import { linkMapping, featureMapping, imageMapping } from './featureSection'
 import { buttonMapping, aLinkMapping } from './navigationalSections/navMapping'
 import heroMapping from './navigationalSections/heroMapping'
 
+import { callToExploreMapping, cardMapping } from './exploreSection'
 import {
   featureLinks,
   zoomLinks,
@@ -9,6 +10,7 @@ import {
   navLinks,
   buttonsBlueThenWhite,
   featureButtonData,
+  cardData,
 } from './utils/links'
 import { getElementById } from './utils/queryElementbyId'
 
@@ -53,3 +55,12 @@ learnMore.innerHTML = heroMapping()
 ////////////////////to the feature container
 featureElement = getElementById('imageContainer')
 imageMapping()
+
+/////7
+
+const callToExplore = getElementById('callToExplore')
+callToExploreMapping(callToExplore)
+
+const cardCategories = getElementById('cardCategories')
+links = cardData
+cardMapping(links, cardCategories)

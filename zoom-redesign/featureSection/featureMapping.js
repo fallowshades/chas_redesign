@@ -28,7 +28,6 @@ const featureMapping = (links, container, featureButton) => {
 
   container.appendChild(ul)
 
-  console.log(featureButton[0])
   // Create and append a button after the unordered list
   const buttonDiv = document.createElement('div')
   buttonDiv.innerHTML = featureButton.map((button) => {
