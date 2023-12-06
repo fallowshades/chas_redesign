@@ -2,17 +2,12 @@ const featureMapping = (links, container, featureButton) => {
   // Clear existing content in the container
   container.innerHTML = ''
   // Create buttons based on the 'text' property
-  /*
-  links.forEach((link) => {
-    const image = document.createElement('img')
-    image.alt = link.text
-    image.src = link.url
-    image.className.add('svgUrl')
 
-    // Add any additional attributes or event listeners as needed
-    // For example, you might want to add a click event listener
-
-      */
+  const div = document.createElement('div')
+  div.innerHTML = `<h2 class="text-2xl font-bold">Unified communication and collaboration platform</h2><hr>
+<p class="text-base">Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one offering.</p>
+`
+  container.appendChild(div)
 
   const ul = document.createElement('ul')
   ul.classList.add('grid', 'grid-cols-2', 'gap-4', 'list-none')
