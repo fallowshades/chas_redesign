@@ -8,6 +8,7 @@ import {
   navButtons,
   navLinks,
   buttonsBlueThenWhite,
+  featureButtonData,
 } from './utils/links'
 import { getElementById } from './utils/queryElementbyId'
 
@@ -17,7 +18,7 @@ linkMapping(links, featureElement)
 
 links = zoomLinks
 featureElement = getElementById('featureContainer')
-featureMapping(links, featureElement)
+featureMapping(links, featureElement, featureButtonData)
 
 /*
 links = {

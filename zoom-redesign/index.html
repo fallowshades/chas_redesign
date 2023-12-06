@@ -14,31 +14,33 @@
   <body class="bg-midnight text-tahiti">
     <script async src="/functionsInGlobalScope.js"></script>
 
-    <nav
-      id="nav"
-      class="flex justify-between flex-row items-center p-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-900 text-tahiti fixed top-0 w-full z-100"
-    >
-      <div class="flex items-start items-center md:items-start">
-        <img
-          alt="Zoom Logo"
-          height="26"
-          src="https://images4.welcomesoftware.com/assets/Zoom+Logo/Zz01ZGU4MDMzZWJmNDcxMWVkOTI4NGEyNDU1OWRiZTc5Zg==?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOlsiNWRlODAzM2ViZjQ3MTFlZDkyODRhMjQ1NTlkYmU3OWYiXSwiZXhwIjoxNjgxMzM0MTEwfQ.3_IFoXtmS8ExOGbL0F1oGPu8z6lgijgDWFf82zrDFzk"
-          width="114"
-        />
-        <div id="toggle" class="hidden md:block">
-          is dynamically rendered in navMapping
+    <header>
+      <nav
+        id="nav"
+        class="flex justify-between flex-row items-center p-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-900 text-tahiti fixed top-0 w-full z-100"
+      >
+        <div class="flex items-start items-center md:items-start">
+          <img
+            alt="Zoom Logo"
+            height="26"
+            src="https://images4.welcomesoftware.com/assets/Zoom+Logo/Zz01ZGU4MDMzZWJmNDcxMWVkOTI4NGEyNDU1OWRiZTc5Zg==?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOlsiNWRlODAzM2ViZjQ3MTFlZDkyODRhMjQ1NTlkYmU3OWYiXSwiZXhwIjoxNjgxMzM0MTEwfQ.3_IFoXtmS8ExOGbL0F1oGPu8z6lgijgDWFf82zrDFzk"
+            width="114"
+          />
+          <div id="toggle" class="hidden md:block">
+            is dynamically rendered in navMapping
+          </div>
         </div>
-      </div>
 
-      <div>
-        <div id="navButtons" class="hidden md:block">
-          is dynamically rendered in navMapping
+        <div>
+          <div id="navButtons" class="hidden md:block">
+            is dynamically rendered in navMapping
+          </div>
+          <div id="toggleLarge" class="md:hidden">
+            is dynamically rendered in navMapping
+          </div>
         </div>
-        <div id="toggleLarge" class="md:hidden">
-          is dynamically rendered in navMapping
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
@@ -111,9 +113,16 @@
         </aside>
 
         <div id="scrollableContainer" class="flex-1">
-          <div class="">
-            <div id="imageContainer"></div>
-            <div id="featureContainer">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div id="imageContainer" class="relative w-full h-96 pb-full">
+              <div
+                class="absolute w-full h-full bg-cover bg-no-repeat rounded-xl top-neg-15 left-neg-15 z-3 z-30"
+                style="
+                  background-image: url('https://st3.zoom.us/static/6.3.17532/image/home2/img3.jpg');
+                "
+              ></div>
+            </div>
+            <div id="featureContainer" class="flex flex-col gap-7">
               is dynamically rendered in featureMapping
             </div>
           </div>

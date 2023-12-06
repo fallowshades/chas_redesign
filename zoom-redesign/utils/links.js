@@ -157,3 +157,12 @@ export const buttonsBlueThenWhite = [
       'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
   },
 ]
+
+export const featureButtonData = [
+  {
+    id: 1,
+    text: 'Disover Zoom One',
+    style:
+      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+  },
+]
