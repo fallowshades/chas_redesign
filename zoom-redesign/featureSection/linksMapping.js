@@ -2,16 +2,25 @@ const linkMapping = (links, container) => {
   // Clear existing content in the container
   container.innerHTML = ''
 
-  // Create buttons based on the 'text' property
-  links.forEach((link) => {
-    const button = document.createElement('button')
-    button.textContent = link.text
+  const listOfButtons = document.createElement('div')
+  listOfButtons.classList.add('flex', 'flex-row', 'md:flex-col', 'w-fit')
 
-    // Add any additional attributes or event listeners as needed
-    // For example, you might want to add a click event listener
+  container.innerHTML = ''
 
-    container.appendChild(button)
-  })
+  listOfButtons.innerHTML = links
+    .map((link) => {
+      return `
+         <div class="text-white semantic-List-class">
+         <button onclick="handleButtonClick(this)">
+  
+${link.text}
+          </button>
+        </div>
+        `
+    })
+    .join('')
+
+  container.appendChild(listOfButtons)
 }
 
 export default linkMapping

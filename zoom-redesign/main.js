@@ -12,7 +12,7 @@ import {
 import { getElementById } from './utils/queryElementbyId'
 
 let links = featureLinks
-let featureElement = getElementById('links')
+let featureElement = getElementById('linksMapping')
 linkMapping(links, featureElement)
 
 links = zoomLinks

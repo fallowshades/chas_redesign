@@ -12,9 +12,11 @@
     <title>Vite App</title>
   </head>
   <body class="bg-midnight text-tahiti">
+    <script async src="/functionsInGlobalScope.js"></script>
+
     <nav
       id="nav"
-      class="flex justify-between flex-row items-center p-4 bg-midnight text-tahiti fixed top-0 w-full z-50"
+      class="flex justify-between flex-row items-center p-4 bg-gradient-to-r from-blue-100 via-blue-200 to-blue-900 text-tahiti fixed top-0 w-full z-100"
     >
       <div class="flex items-start items-center md:items-start">
         <img
@@ -75,7 +77,9 @@
           </div>
           <div class=""></div>
         </div>
-        <div class="w-full h-full">
+        <div
+          class="w-full h-full bg-gradient-to-r from-blue-100 via-blue-200 to-blue-900 bord rounded-lg"
+        >
           <img
             src="https://file-paa.zoom.us/qMOLvnj0STaQ5dHLD_nPLQ/MS4yLiFV8iwF0gzduLL29eHrpuIePnVVV_VXH5tbSkditS9a/65a66de6-5a51-448a-9a99-36e78c928482.png"
             alt="Zoom Interface Icon"
@@ -87,9 +91,11 @@
 
       <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
       <section class="features">
-        <div class="align-element py-20">
-          <aside id="links" class="flex flex-col">
-            is dynamically rendered in linksMapping
+        <div class="align-element py-20 bg-black">
+          <aside id="links" class="">
+            <div id="linksMapping" class="flex flex-col">
+              is dynamically rendered in linksMapping
+            </div>
           </aside>
 
           <div class="scrollableContainer">
