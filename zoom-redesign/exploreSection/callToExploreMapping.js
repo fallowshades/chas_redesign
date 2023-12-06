@@ -3,7 +3,7 @@ const callToExploreMapping = (container) => {
 
   console.log('hello')
   const div = document.createElement('div')
-  div.classList.add('flex', 'flex-row', 'md:flex-col', 'w-fit', 'gap-y-5')
+  div.classList.add('flex', 'flex-col', 'w-fit', 'gap-y-5')
 
   div.innerHTML = `
     <h1 class="text-5xl"">Powering organizations across industries and geographies</h1>
