@@ -1,9 +1,34 @@
 export const featureLinks = [
-  { id: 1, text: 'zoom one' },
-  { id: 2, text: 'spaces' },
-  { id: 3, text: 'Events' },
-  { id: 4, text: 'contact center' },
-  { id: 5, text: 'Developers' },
+  {
+    id: 1,
+    text: 'zoom one',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+  },
+  {
+    id: 2,
+    text: 'spaces',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+  },
+  {
+    id: 3,
+    text: 'Events',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+  },
+  {
+    id: 4,
+    text: 'contact center',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+  },
+  {
+    id: 5,
+    text: 'Developers',
+    style:
+      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+  },
 ]
 
 export const zoomLinks = [

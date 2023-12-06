@@ -42,7 +42,7 @@
 
     <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-    <div class="mx-auto max-w-6xl px-8 py-20">
+    <div class="mx-auto max-w-6xl py-20">
       <section id="hero" class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <div id="learn-more" class=""></div>
@@ -88,30 +88,41 @@
           />
         </div>
       </section>
+    </div>
+    <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <section class="features">
+      <div class="align-element py-20 flex flex-col md:flex-row">
+        <aside
+          id="links"
+          class="bg-black md:max-w-[30%] w-30 md:h-screen md:h-max-screen"
+        >
+          <div id="asideImage" class="bg-blue-500">
+            <img
+              src="https://st1.zoom.us/static/6.3.17532/image/home2/zoom-products.png"
+              alt="Zoom Unified Communication Platform"
+            />
+          </div>
+          <h3 class="text-white text-4xl">
+            Flexible solutions for modern team collaboration
+          </h3>
+          <div id="linksMapping" class="">
+            is dynamically rendered in linksMapping
+          </div>
+        </aside>
 
-      <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-      <section class="features">
-        <div class="align-element py-20 bg-black">
-          <aside id="links" class="">
-            <div id="linksMapping" class="flex flex-col">
-              is dynamically rendered in linksMapping
-            </div>
-          </aside>
-
-          <div class="scrollableContainer">
-            <div class="">
-              <div id="imageContainer"></div>
-              <div id="featureContainer">
-                is dynamically rendered in featureMapping
-              </div>
+        <div id="scrollableContainer" class="flex-1">
+          <div class="">
+            <div id="imageContainer"></div>
+            <div id="featureContainer">
+              is dynamically rendered in featureMapping
             </div>
           </div>
         </div>
-      </section>
-      <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+      </div>
+    </section>
+    <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-      <section class="blog"></section>
-    </div>
+    <section class="blog"></section>
 
     <script type="module" src="/main.js"></script>
   </body>
