@@ -9,9 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <title>Vite App</title>
+    <title>Zoom</title>
   </head>
-  <body class="bg-midnight text-tahiti">
+  <body class="bg-midnight text-tahiti sans-serif">
     <script async src="/functionsInGlobalScope.js"></script>
 
     <header>
@@ -64,10 +64,10 @@
               <span class="text-blue-600">effective</span></span
             >
             <div class="py-9">
-              <p>
+              <p class="text-gray-500">
                 Zoom AI Companion is your trusted digital assistant that
                 empowers you.
-                <b
+                <b class="text-black"
                   >Included at no additional cost with your paid Zoom user
                   account.</b
                 >
@@ -92,7 +92,7 @@
       </section>
     </div>
     <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
-    <section class="features">
+    <section class="features rounded-sm">
       <div class="align-element py-20 flex flex-col md:flex-row">
         <aside
           id="links"
@@ -107,7 +107,7 @@
           <h3 class="text-white text-4xl">
             Flexible solutions for modern team collaboration
           </h3>
-          <div id="linksMapping" class="">
+          <div id="linksMapping" class="py-4 outline-4">
             is dynamically rendered in linksMapping
           </div>
         </aside>
@@ -131,18 +131,19 @@
     </section>
     <!--|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
 
-    <section
-      aria="categories"
-      class="grid grid-cols-1 md:grid-cols-2 gap-8 h-max-screen py-3"
-    >
-      <div id="callToExplore" class="">
-        dynamic render like heroMapping but no in callToExploreMapping
-      </div>
-      <div id="cardCategories" class="">
-        dynamically render cards in cardMapping
-      </div>
-    </section>
-
+    <div class="mx-auto max-w-6xl py-20 px-6">
+      <section
+        aria="categories"
+        class="grid grid-cols-1 md:grid-cols-2 gap-8 h-max-screen py-3"
+      >
+        <div id="callToExplore" class="">
+          dynamic render like heroMapping but no in callToExploreMapping
+        </div>
+        <div id="cardCategories" class="">
+          dynamically render cards in cardMapping
+        </div>
+      </section>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@ const cardMapping = (links, container) => {
 
     .map((link) => {
       return `
-        <div class="flex group p-4 transition-shadow duration-300 hover:shadow-lg"> 
+        <div class="font-sans  flex group p-4 transition-shadow duration-300 hover:shadow-lg"> 
         ${link.icon}
         
         <h2 class="ml-4 text-lg font-semibold"> ${link.text}</h2>

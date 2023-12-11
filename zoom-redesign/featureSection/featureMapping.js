@@ -4,8 +4,9 @@ const featureMapping = (links, container, featureButton) => {
   // Create buttons based on the 'text' property
 
   const div = document.createElement('div')
+  div.classList.add('font-sans')
   div.innerHTML = `<h2 class="text-2xl font-bold">Unified communication and collaboration platform</h2><hr>
-<p class="text-base">Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one offering.</p>
+<p class="text-gray-700  text-base">Make meaningful connections with meetings, team chat, whiteboard, phone, and more in one offering.</p>
 `
   container.appendChild(div)
 

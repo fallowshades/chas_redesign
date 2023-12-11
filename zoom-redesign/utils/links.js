@@ -3,31 +3,31 @@ export const featureLinks = [
     id: 1,
     text: 'zoom one',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+      'w-fit w-35 h-12 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
   },
   {
     id: 2,
     text: 'spaces',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+      'w-fit w-35 h-12 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
   },
   {
     id: 3,
     text: 'Events',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+      'w-fit w-35 h-12 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600  sans-serif',
   },
   {
     id: 4,
     text: 'contact center',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+      'w-fit w-35 h-12 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600 sans-serif',
   },
   {
     id: 5,
     text: 'Developers',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
+      'w-fit w-35 h-12 p-2 bg-blue-400 border border-white rounded-full text-black hover:bg-blue-600',
   },
 ]
 
@@ -106,14 +106,14 @@ export const navButtons = [
     text: 'contact Sales',
     url: 'https://www.zoom.com/en/contact/contact-sales/',
     style:
-      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+      'flex items-center justify-center  w-fit w-31 h-12 text-center p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
   },
   {
     id: 2,
     text: 'Sign up Free',
     url: 'https://zoom.us/signup#/signup',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
+      'flex items-center justify-center w-fit w-31 h-12 text-center p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
   },
 ]
 
@@ -147,14 +147,14 @@ export const buttonsBlueThenWhite = [
     text: 'Plans & pricing',
     url: 'https://zoom.us/pricing',
     style:
-      'w-fit w-30 h-9 p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
+      'w-fit w-31 h-10 p-2 bg-blue-500 border border-white rounded-full text-white hover:bg-blue-600',
   },
   {
     id: 2,
     text: 'Discover AI companion',
     url: 'https://www.zoom.com/en/ai-assistant/',
     style:
-      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+      'w-fit w-31 h-10  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
   },
 ]
 
@@ -163,7 +163,7 @@ export const featureButtonData = [
     id: 1,
     text: 'Disover Zoom One',
     style:
-      'w-fit w-30 h-9  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
+      'w-fit w-31 h-10  p-2 bg-white border border-blue-500 rounded-full text-blue-500 hover:bg-slate-100',
   },
 ]
 
